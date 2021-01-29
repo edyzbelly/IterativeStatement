@@ -14,9 +14,9 @@ namespace IterativeStatement
                 int value = int.Parse(input);
 
                 int i;
-                for(i = 0; i < value; i++)
+                for(i = 1; i <= value; i++)
                 { 
-                    Console.WriteLine("You have entered" + value.ToString() + ". This is the current integer value " +
+                    Console.WriteLine("You have entered " + value.ToString() + ". This is the current integer value " +
                         "in the loop: " + i.ToString()); 
                 }
                
